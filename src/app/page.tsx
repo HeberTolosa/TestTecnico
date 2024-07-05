@@ -21,7 +21,6 @@ export default function Home() {
   setTimeout(() => {
     changeKey();
   }, 5000);
-  console.log("NAME VALID", nameValidate);
   return (
     <main>
       <SwitchTransition>

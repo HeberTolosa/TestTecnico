@@ -7,7 +7,7 @@
   .Header__MainContainer {
     height: 50px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     background: #2b4c7e;
   }
   .Header__UserContainer {
@@ -59,6 +59,7 @@
     animation-duration: 0.5s;
     animation-name: slidein;
     flex-wrap: nowrap;
+    z-index: 10;
   }
 
   @keyframes opacityanimation {
